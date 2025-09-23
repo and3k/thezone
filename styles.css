@@ -1,0 +1,43 @@
+.wrap{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  border:none;
+  
+}
+
+.title {
+  color: red;
+  border: none;
+  text-align:center;
+  font-size:40px;
+  font-family: serif;
+}
+.quote {
+  text-align: center;
+  font-style: italic;
+}
+nav{
+  text-align: right;
+  border: none;
+  padding: .07%;
+}
+h2 {
+   font-family: serif;
+  font-size: 30px;
+  text-align: center;
+}
+.chart1{
+  width: 70%;
+}
+body {
+  font-family: sans-serif;
+}
+.heroimage{
+  border-left:.6rem solid;
+  border-right:.6rem dashed;
+  border-radius: 4%;
+  width: 70%;
+  margin-left:14%;
+
+}
