@@ -3,16 +3,34 @@
   margin-left: auto;
   margin-right: auto;
   border:none;
-  
 }
-
+.title::before {
+  content:"";
+  position:absolute;
+  border-left: .07em solid transparent;
+  border-right: .07em solid transparent;
+  border-bottom: .75em solid red;
+  transform: translateY(-21%)  rotate(-84deg); 
+}
+.title::after {
+  content:"";
+  position:absolute;
+  left: 2em;
+  border-left: .07em solid transparent;
+  border-right: .07em solid transparent;
+  border-bottom: .75em solid red;
+  transform: translateY(-21%)  rotate(-84deg); 
+}
 .title {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
   color: red;
   border: none;
-  text-align:center;
-  font-size:40px;
-  font-family: serif;
+  font-size: 4rem;
 }
+
 .quote {
   text-align: center;
   font-style: italic;
@@ -28,7 +46,7 @@ h2 {
   text-align: center;
 }
 .chart1{
-  width: 70%;
+  width: 40%;
 }
 body {
   font-family: sans-serif;
@@ -37,7 +55,22 @@ body {
   border-left:.6rem solid;
   border-right:.6rem dashed;
   border-radius: 4%;
+  width: 50%;
+  display: block;
+    margin: 0 auto;
+}
+hr {
+  align: center;
+  background-color: black;
+  border-color: black;
   width: 70%;
-  margin-left:14%;
+  height: 2px;
+  margin-bottom: 5%;
 
+}
+.form{
+  margin-bottom: 5%;
+}
+a:hover {
+  color: red;
 }
