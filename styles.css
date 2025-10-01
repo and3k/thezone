@@ -150,3 +150,6 @@ h3 {
     margin-top: 6rem;
 }
 }
+#map {
+  height: 280px; 
+}
